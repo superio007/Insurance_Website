@@ -1,0 +1,889 @@
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+}
+/* header start */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: white;
+}
+#header #left h1{
+    color: rgb(255, 125, 4);
+}
+#header #left p{
+    color: black;
+    font-weight: bold;
+}
+#header #left h1,p{
+    margin: 0%;
+}
+#header #right a{ 
+    text-decoration: none;
+    color: black;
+}
+#header #right a:hover{
+    color: rgb(255, 125, 4);
+}
+#header #right li{ 
+    list-style-type: none;
+}
+#header #right ul{ 
+    display: flex;
+    align-items: center;
+    gap: 135px;
+}
+#header #right button{ 
+    background-color: orange;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+/* header end */
+#footer{
+    display: flex;
+    gap: 130px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 50px;
+    background-color: black;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer a:hover{
+    color: rgb(255, 125, 4);
+}
+#footer li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+#footer #first h1,p{ 
+    margin: 0%;
+}
+#footer #first h1{
+    color: rgb(255, 125, 4);
+}
+#footer #first p{
+    color: white;
+    font-weight: bold;
+}
+#footer .head{
+    padding-top: 29px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/* footer end */
+/* home Start */
+/* dash1 start */
+#home #dash1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 166, 0, 0.332);
+    gap: 60px;
+    padding: 50px 126px;
+}
+#home #dash1  #left h1,p{
+    margin: 0%;
+}
+#home #dash1  #left h1{
+    color: orange;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#home #dash1  #left p{
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-right: 57%;
+}
+#home #dash1  #left button{
+    width: 133px;
+  background-color: orange;
+  color: white;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 18px;
+}
+#home #dash1 #right img{
+    width: 520px;
+    height: 280px;
+}
+/* dash1 end */
+/* dash 2 start */
+#home #dash2{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    padding: 0 30px;
+}
+#home #dash2 #first{
+    display: flex;
+    gap: 55px;
+}
+#home #dash2 #second{
+    display: flex;
+    gap: 55px;
+}
+#home #dash2 #third{
+    display: flex;
+    gap: 55px;
+}
+#home #dash2 .card{
+    background-color: white;
+    width: 180px;
+    height: 205px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 15px 0px;
+}
+#home #dash2 .card button{
+    background-color: orange;
+    color: white;
+    width: 98px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 25%;
+    border: none;
+    border-radius: 5px;
+}
+/* dash 2 end */
+/* dash 3 start */
+#home #dash3{
+    background-color: rgba(255, 166, 0, 0.332);
+    gap: 60px;
+    padding: 25px 126px;
+}
+#home #dash3 h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#home #dash3 input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    margin-bottom: 15px;
+    margin-left: 440px;
+}
+#home #dash3 input{
+    padding-left: 55px;
+}
+#home #dash3 button{
+    background-color: orange;
+    color: white;
+    width: 98px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 48%;
+}
+/* dash 3 end */
+/* dash 4 :start */
+#home #dash4{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+    background-color: whitesmoke;
+}
+#home #dash4 .card{
+    background-color: white;
+    width: 200px;
+    height: 340px;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+#home #dash4 #first,#second,#third{
+    display: flex;
+    gap: 55px;
+}
+#home #dash4 .card img{
+    /* width: 150px; */
+    height: 100px;
+    border-radius: 50%;
+}
+/* dash 4 :end */
+/* home end */
+
+/* About us start */
+/* Dash 1 start */
+#About h1{
+    text-align: center;
+}
+#About #dash1{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+    background-color: whitesmoke;
+}
+#About #dash1 .card{
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+#About #dash1 #first,#second,#third{
+    display: flex;
+    gap: 55px;
+    margin-bottom: 25px;
+}
+
+#About #dash1 .card img{
+    width: 150px;
+    height: 100px;
+    border-radius: 81%;
+}
+/* dash 1 end */
+/* dash 2 start */
+#About #dash2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 166, 0, 0.332);
+    padding: 35px 25px;
+}
+#About #dash2  #left h1,p{
+    margin: 0%;
+}
+#About #dash2  #left h1{
+    color: orange;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#About #dash2  #left p{
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: -3%;
+}
+#About #dash2  #left button{
+    width: 133px;
+    background-color: orange;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 35px;
+    margin-left: 43%;
+}
+#About #dash2 #right img{
+    width: 520px;
+    height: 280px;
+}
+/* dash 2 end */
+/* dash 3 start */
+#About #dash3{
+    background-color: white;
+}
+/* dash3 :end */
+/* dash 4 start */
+#About #dash4{
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    background-color: white;
+    margin: 0%;
+}
+
+#About #dash4 img{
+    width: 150px;
+    height: 200px;
+    padding: 25px 0;
+}
+/* dash 4 :end */
+/* About us end */
+
+/* Sign up start*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.error-message {
+    color: red;
+}
+
+#log-in * {
+	box-sizing: border-box;
+}
+
+#log-in {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+#log-in h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+#log-in h2 {
+	text-align: center;
+}
+
+#log-in p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+#log-in span {
+	font-size: 12px;
+}
+
+#log-in a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 6px;
+}
+
+#log-in button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+#log-in button:active {
+	transform: scale(0.95);
+}
+
+#log-in button:focus {
+	outline: none;
+}
+
+#log-in button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+#log-in form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+
+#log-in form input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 580px;
+    margin-top: 25px;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+
+.container.right-panel-active .sign-in-container {
+	transform: translateX(100%);
+}
+
+.sign-up-container {
+	left: 0;
+	width: 50%;
+	opacity: 0;
+	z-index: 1;
+}
+
+.container.right-panel-active .sign-up-container {
+	transform: translateX(100%);
+	opacity: 1;
+	z-index: 5;
+	animation: show 0.6s;
+}
+
+@keyframes show {
+	0%, 49.99% {
+		opacity: 0;
+		z-index: 1;
+	}
+	
+	50%, 100% {
+		opacity: 1;
+		z-index: 5;
+	}
+}
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	transition: transform 0.6s ease-in-out;
+	z-index: 100;
+}
+
+.container.right-panel-active .overlay-container{
+	transform: translateX(-100%);
+}
+
+.overlay {
+	background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	position: relative;
+	left: -100%;
+	height: 100%;
+	width: 200%;
+  	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+
+.container.right-panel-active .overlay {
+  	transform: translateX(50%);
+}
+
+.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+	transform: translateX(-20%);
+}
+
+.container.right-panel-active .overlay-left {
+	transform: translateX(0);
+}
+
+.overlay-right {
+	right: 0;
+	transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-right {
+	transform: translateX(20%);
+}
+
+.social-container {
+	margin: 20px 0;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+/* sign up end */
+
+/* FAQ Start  */
+#faq h1{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+#faq #questions{
+    padding: 25px 15%;
+}
+#faq #questions h1,p{
+    text-align: left;
+}
+#faq #questions h1{
+    color: rgb(255, 125, 4);
+    text-decoration: darkgrey;
+}
+#faq #questions p{
+    text-align: left;
+    font-weight: bolder;
+}
+/* FAQ End */
+/* Inquery Start */
+
+#questions #question{
+    width: 80%;
+    margin: auto;
+}
+#questions #head h1{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+#que-ul{
+    padding: 0%;
+}
+#que-ul li h3,div{
+    color: black;
+}
+#que-ul li{
+    list-style-type: none;
+}
+#que-ul li h3{
+    background-color: white;
+    padding: 24px;
+}
+#que-ul li div{
+    background-color: white;
+    padding: 24px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#ans1,#ans2,#ans3,#ans4,#ans5,#ans6{
+    display: none;
+    margin-bottom: 25px;
+}
+#que1:hover + #ans1 {
+    display: block;
+}
+#que2:hover + #ans2 {
+    display: block;
+}
+#que3:hover + #ans3 {
+    display: block;
+}
+#que4:hover + #ans4 {
+    display: block;
+}
+#que5:hover + #ans5 {
+    display: block;
+}
+#que6:hover + #ans6 {
+    display: block;
+}
+.fa-solid.fa-plus.fa-2xl{
+    position: absolute;
+    left: 74%;
+}
+/* Inquery Dash 2 start  */
+#Inquery #dash2{
+    display: flex;
+    gap: 25px;
+    padding-bottom: 48px;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-bottom: 25PX;
+}
+#Inquery #dash2 #first,#second,#third{
+    display: flex;
+    gap: 55px;
+}
+#Inquery #dash2 .card{
+    text-align: center;
+    color: black;
+    width: 195px;
+    height: 225px;
+    padding-top: 15px;
+}
+#Inquery #dash2 .card h1,p{
+    text-align: center;
+}
+#Inquery #dash2 .card button{
+    background-color: orange;
+    color: white;
+    width: 98px;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 24%;
+}
+/* Inquery Dash 2 end  */
+/* Inquery Dash 3 start */
+#Inquery #dash3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 166, 0, 0.332);
+    padding: 35px 25px;
+}
+#Inquery #dash3  #left h1,p{
+    margin: 0%;
+}
+#Inquery #dash3  #left h1{
+    color: orange;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#Inquery #dash3  #left p{
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: -52%;
+}
+#Inquery #dash3  #left button{
+    width: 133px;
+    background-color: orange;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 35px;
+}
+#Inquery #dash3 #right img{
+    width: 520px;
+    height: 280px;
+}
+/* Inquery dash 3 end */
+/* Inquery End */
+
+/* Health Insurance start */
+#Health img{
+    width: 100%;
+    height: auto;
+}
+/* Health Insurance end */
+
+/* Mobile Version */
+@media(max-width:500px) {
+    #header{
+        padding: 0 0px;
+    }
+    #header #right ul{ 
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    #footer{
+        display: block;
+    }
+    #home #dash1{
+        display: block;
+        padding: 0px 0px;
+    }
+    #home #dash1  #left h1{
+        color: orange;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    #home #dash1  #left p{
+        color: black;
+        font-weight: bolder;
+        font-size: 22px;
+        margin-right: 40%;
+    }
+    #home #dash2{
+        display: block;
+        justify-content: space-between;
+        gap: 55px;
+        padding: 0 30px;
+    }
+    #home #dash2 #first{
+        display: none;
+    }
+    #home #dash3{
+        padding: 25px 0px;
+    }
+    #home #dash3 input{
+        width: 350px;
+        height: 30px;
+        border: none;
+        margin-bottom: 15px;
+        margin-left: 75px;
+    }
+    #home #dash3 input{
+        padding-left: 55px;
+    }
+    #home #dash3 button{
+        margin-left: 40%;
+    }
+    #home #dash4{
+        display: block;
+        margin: 15px 30px;
+        background-color: whitesmoke;
+    }
+    #home #dash4 #first,#second,#third{
+        display: flex;
+        gap: 55px;
+        margin-bottom: 25px;
+    }
+    #home #dash4 .card img{
+        /* width: 150px; */
+        height: 100px;
+        border-radius: 50%;
+    }
+    /* About */
+    #About #dash1{
+        display: block;
+        margin: 15px 30px;
+        background-color: whitesmoke;
+    }
+    #About #dash1 #first,#second,#third{
+        display: flex;
+        gap: 55px;
+        margin-bottom: 25px;
+    }
+    #About #dash1 .card img{
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    #About #dash2{
+        display: block;
+    }
+    #About #dash2  #left h1,p{
+        margin: 0%;
+    }
+    #About #dash2  #left h1{
+        color: orange;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    #About #dash2  #left p{
+        color: black;
+        font-weight: bolder;
+        font-size: 22px;
+        margin-left: 8%;
+    }
+    #About #dash2  #left button{
+        width: 133px;
+        background-color: orange;
+        color: white;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 35px;
+        margin-left: 40%;
+        margin-bottom: 30px;
+    }
+    #About #dash2 #right img{
+        width: 520px;
+        height: 280px;
+    }
+    #About #dash3{
+        padding-top: 25px;
+        display: block;
+        background-color: white;
+    }
+    #About #dash4{
+        gap: 20px;
+    }
+    .fa-solid.fa-plus.fa-2xl{
+        position: absolute;
+        left: 68%;
+    }
+    #Inquery #dash2{
+        display: block;
+    }
+    #Inquery #dash2 #first{
+        display: none;
+    }
+    #Inquery #dash3{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 166, 0, 0.332);
+        padding: 35px 25px;
+    }
+    #Inquery #dash3  #left h1,p{
+        margin: 0%;
+    }
+    #Inquery #dash3  #left h1{
+        color: orange;
+        font-weight: bolder;
+        font-size: 40px;
+        margin-left: 4%;
+    }
+    #Inquery #dash3  #left p{
+        color: black;
+        font-weight: bolder;
+        font-size: 22px;
+        margin-left: -1%;
+    }
+    #Inquery #dash3  #left button{
+        width: 133px;
+        background-color: orange;
+        color: white;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        margin-left: 35%;
+    }
+    #Inquery #dash3 #right img{
+        width: 520px;
+        height: 280px;
+    }
+    #faq h1{
+        text-align: center;
+        font-weight: bolder;
+    }
+    #questions{
+        padding: 25px 15%;
+    }
+    #questions h1,p{
+        text-align: left;
+    }
+    #questions h1{
+        color: rgb(255, 125, 4);
+        text-decoration: darkgrey;
+    }
+    #questions p{
+        font-weight: bolder;
+    }
+}
